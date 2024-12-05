@@ -28,8 +28,7 @@ a {
   border-radius: calc(25px + 5px);
   z-index: -1;
   opacity: 0;
-  scale: 0.5;
-  transition: opacity 500ms ease-in-out, scale 500ms ease-in-out;
+  transition: opacity 500ms ease-in-out;
 }
 
 .teaser:hover::before {
