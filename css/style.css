@@ -10,6 +10,7 @@ a {
 }
 
 .teaser {
+  position: relative;
   border: solid 2px gray (68, 68, 68);
   padding: 2em;
   border-radius: 25px;
@@ -19,9 +20,21 @@ a {
   margin: 1em;
 }
 
-.teaser:hover {
-  scale: 1.05;
-  transition: all 0.5s;
+.teaser::before {
+  content: "";
+  position: absolute;
+  inset: -5px;
+  background: linear-gradient(-45deg, #f7aef8 0%, #3772ff 100%);
+  border-radius: calc(25px + 5px);
+  z-index: -1;
+  opacity: 0;
+  scale: 0.5;
+  transition: opacity 500ms ease-in-out, scale 500ms ease-in-out;
+}
+
+.teaser:hover::before {
+  scale: 1;
+  opacity: 1;
 }
 
 .teaser-image {
