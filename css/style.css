@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(32, 32, 32);
+}
+p {
+  color: white;
+}
+a {
+  color: #f7aef8;
+  text-decoration: none;
+}
+
+.teaser {
+  display: flex;
+  margin: 1em;
+}
+
+.teaser-image {
+  gap: 30px;
+}
+
+.teaser-description {
+  gap: 30px;
+  margin-left: 1em;
+}
+
+.liste {
+  width: 80%;
+  margin: auto;
+}

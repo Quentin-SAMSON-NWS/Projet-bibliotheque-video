@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Biblitohèque vidéo</title>
+    <title>Bibliothèque Vidéo</title>
 
     <meta charset="utf-8" />
     <meta name="generator" content="Geany 1.38" />
@@ -10,55 +10,65 @@
     <meta name="author" content="" />
 
     <link rel="icone" href="" />
-    <link rel="stylesheet" href="../CSS/main.css" />
+    <link rel="stylesheet" href="../CSS/boutton.css" />
+      <link rel="stylesheet" href="../CSS/contact.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Passion+One:wght@400;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titan+One&display=swap" rel="stylesheet">
   </head>
 
-  <body>
+
+
+    
+<body>
     <!-- HEAD lien essayer de faire un site horizontale -->
     <header class="fixed-top navbar navbar-top-right">
+        <section>
+            <div>
+              <a class = "logo" href ="index.html"> <img class = "image-header" src="/image/S8Studio.png" /></a>
+              </div> 
+        </section>
+        <section>
       <nav>
-        <ul>
-          <li id="logo-menu">
-            <button href="/html/portfolio.html">
-              <img src="/image/icone de site.svg" />
+        <ul class = "nav-list">
             </button>
+          <li>
+            <a class = "menu" href="index.html" id="Accueil">Accueil</a>
           </li>
           <li>
-            <a href="index.html" id="Accueil">Accueil</a>
+            <a class = "menu" href="listing.html" id="listing">bibliothèque</a>
           </li>
           <li>
-            <a href="listing.html" id="Compétences">biblihotèque</a>
+            <a class = "menu" href="creation-de-poste.html" id="creation-de-poste">Créer un post</a>
           </li>
-          <li>
-            <a href="creation-de-poste.html" id="Portfolio">Créer un post</a>
-          </li>
-          <li>
-            <a href="#Contacter" id="Conatcter">Me contacter</a>
+          <li class = "right">
+            <a class = "menu" href="#Contacter" id="Conatcter">Me contacter</a>
           </li>
         </ul>
       </nav>
+      </section>
     </header>
-    <section>
+ <section class="container">
+      <h2 class= "titre-formulaire">Créer un post</h2>
       <form>
-        <div>
-          <label for="Prenom">titre de la vidéo</label>
-          <input id="Prenom" type="text" name="Prenom" required />
+        <label for="titre">Titre de la vidéo</label>
+        <input id="titre" type="text" name="titre" required />
 
-          <label for="Nom"></label>
-          <input id="nom" type="text" name="Nom" required />
+        <label for="lien-hypertext">Lien de la vidéo</label>
+        <input id="lien-hypertext" type="text" name="lien-hypertext" required />
 
-          <label for="email">E-mail</label>
-          <input id="email" type="email" name="email" required />
+        <label for="description">Description</label>
+        <input id="description" type="text" required />
 
-          <label for="password">Mot de passe</label>
-          <input id="password" type="password" required />
+        <label for="commentaire">Commentaire (Facultatif)</label>
+        <input id="commentaire" type="text" />
 
-          <button type="submit">Submit</button>
-          <button type="reset">reset</button>
-
-          <textarea required rows="5" colspan="5"></textarea>
-        </div>
+        <button class="boutton" type=submit>Envoyer</button>
       </form>
     </section>
+    
+    </div>
   </body>
 </html>
+
