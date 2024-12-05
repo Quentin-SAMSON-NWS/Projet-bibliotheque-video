@@ -10,8 +10,18 @@ a {
 }
 
 .teaser {
+  border: solid 2px gray (68, 68, 68);
+  padding: 2em;
+  border-radius: 25px;
+  padding-bottom: 1.5em;
+  background-color: rgb(68, 68, 68);
   display: flex;
   margin: 1em;
+}
+
+.teaser:hover {
+  scale: 1.05;
+  transition: all 0.5s;
 }
 
 .teaser-image {
