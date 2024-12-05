@@ -1,0 +1,67 @@
+/* Tom */
+
+.carte-x2 {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.carte {
+  margin: auto;
+  width: 45%;
+  padding: 10px;
+  min-width: 200px;
+}
+
+.in-carte {
+  background-color: #3772ff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  gap: 20px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.in-carte img {
+  width: 500px;
+  border-radius: 10px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #f7aef8;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #f7aef8;
+  color: white;
+}
+
+.text {
+  background-color: #f7aef8;
+  border-radius: 10px;
+}
+
+p {
+  margin: 20px;
+}
