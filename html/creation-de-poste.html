@@ -43,7 +43,7 @@
             <a class = "menu" href="creation-de-poste.html" id="creation-de-poste">Créer un post</a>
           </li>
           <li class = "right">
-            <a class = "menu" href="#Contacter" id="Conatcter">Me contacter</a>
+            <a class = "menu" href="#Contacter" id="Conatcter">Profil</a>
           </li>
         </ul>
       </nav>
@@ -51,7 +51,7 @@
     </header>
  <section class="container">
       <h2 class= "titre-formulaire">Créer un post</h2>
-      <form>
+      <label>
         <label for="titre">Titre de la vidéo</label>
         <input id="titre" type="text" name="titre" required />
 
@@ -61,8 +61,8 @@
         <label for="description">Description</label>
         <input id="description" type="text" required />
 
-        <label for="commentaire">Commentaire (Facultatif)</label>
-        <input id="commentaire" type="text" />
+        <label for="description">Message</label>
+        <textarea placeholder ="Votre message" class="textarea" id="textarea" rows="10" cols="85%" ></textarea>
 
         <button class="boutton" type=submit>Envoyer</button>
       </form>
