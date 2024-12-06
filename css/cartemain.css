@@ -16,7 +16,7 @@
 }
 
 .in-carte {
-  background-color: #3772ff;
+  background-color: rgb(30, 30, 30);
   padding: 20px;
   border-radius: 10px;
   text-align: center;
@@ -57,7 +57,7 @@
 }
 
 .text {
-  background-color: #f7aef8;
+  background-color: #3772ff;
   border-radius: 10px;
 }
 
@@ -65,4 +65,9 @@ p {
   margin: 20px;
   padding-bottom: 1em;
   text-align: left;
+  color: white;
+}
+
+h2 {
+  color: white;
 }
